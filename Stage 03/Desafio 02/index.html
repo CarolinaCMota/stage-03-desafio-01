@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Avalie sua Mentoria</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<body>
+    <header>
+        <h1>Avalie a sua Mentoria</h1>
+        <p>Chegou a hora de avaliar o seu mentor. Bora lá?</p>
+        <img src="img1.svg" alt="desenho de um balão de conversa com avaliação de três estrelas preenchidas">
+
+        <div class="title">
+            <legend class="no-line">
+                <h2>Informações Pessoais</h2>
+            </legend>
+        </div>
+    </header>
+
+
+    <form>
+        <div class="name-container">
+            <div class="input-wrapper">
+                <label for="name">Nome </label>
+                <input type="text" id="name" required />
+            </div>
+
+
+            <div class="input-wrapper">
+                <label for="lastname">Sobrenome </label>
+                <input type="text" id="lastname" required />
+            </div>
+        </div>
+
+        <div class="input-wrapper">
+            <label for="email">Email<span> (digite um email válido)</span></label>
+            <input type="email" id="email" required />
+        </div>
+
+        <h3>Informações do Mentor</h3>
+        <div class="input-wrapper">
+            <label for="teach">Selecione quem foi o seu mentor </label>
+            <input type="text" id="teach" required />
+        </div>
+
+
+        <div class="input-wrapper">
+            <label for="teach">Feedback sobre o mentor </label>
+            <textarea id="teach" rows="8" required> </textarea>
+        </div>
+
+        <div class="checkbox-wrapper">
+            <input type="checkbox" id="question" />
+            <label for="question">Todas as minhas dúvidas foram esclarecidas durante a mentoria</label>
+        </div>
+    </form>
+
+
+
+
+</body>
+
+</html>
